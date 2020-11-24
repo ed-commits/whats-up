@@ -1,2 +1,3 @@
 # whats-up
-What's Up!
+
+Check the SETUP.md document how to run and develop this.
