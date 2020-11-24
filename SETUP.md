@@ -18,3 +18,8 @@ Active the virtual environment:
 
 `pip install django`
 
+## Running the development server
+
+Move into the web app directory `cd whatsup`
+
+`python manage.py runserver`

@@ -1,2 +1,4 @@
 *~
 webapp-env
+*.pyc
+*.sqlite3
