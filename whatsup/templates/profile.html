@@ -1,3 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
 <h1>Profile</h1>
-<p>Welcome home {{ user.username }}.</p>
+<div class="box smallbox">
+    <p>Welcome home {{ user.username }}.</p>
+</div>
 <a href="/app/logout/">Log out</a>
+{% endblock %}
