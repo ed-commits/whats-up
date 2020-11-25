@@ -1,9 +1,15 @@
 {% extends 'base.html' %}
 
 {% block content %}
+
+{% if user.is_authenticated %}
 <h1>Profile</h1>
 <div class="box smallbox">
-    <p>Welcome home {{ user.username }}.</p>
+    <p>Welcome home {{ user.get_username }}.</p>
 </div>
 <a href="/accounts/logout/">Log out</a>
+{% else %}
+<p>You are not logged in.</p>
+{% endif %}
+
 {% endblock %}
