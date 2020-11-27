@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Everyone</h1>
+<div class="box smallbox">
+    {% if users_list %}
+    <ul>
+        {% for item in users_list %} 
+        <li>
+        {{ item }}
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>
+
+{% endblock %}
