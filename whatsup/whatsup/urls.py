@@ -21,3 +21,8 @@ urlpatterns = [
     path('accounts/', include('django.contrib.auth.urls')),
     path('app/', include('whatsupapp.urls')),
 ]
+
+from django.views.generic import RedirectView
+urlpatterns += [
+    path('', RedirectView.as_view(url='app/', permanent=True)),
+]
