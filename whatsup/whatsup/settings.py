@@ -26,7 +26,7 @@ SECRET_KEY = ')u0cx-m-7jhw%0gg_k%sj9e@l)1t@42c5j1c(9s*i=ce@a#qw0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['10.104.241.84']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'whatsupapp',
 ]
 
 MIDDLEWARE = [
