@@ -8,4 +8,9 @@
 ## Profiles
 
 * Editable profiles with various fields
+* Date or birth field (display as age)
 * Uploading a profile picture
+
+## Friends
+
+* Adding and Removing friends

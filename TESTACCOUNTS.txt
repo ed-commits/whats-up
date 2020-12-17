@@ -1,0 +1,4 @@
+JohnLennon:passwordb1
+PaulMcCartney:passwordb2
+GeorgeHarrison:passwordb3
+RingoStarr:passwordb4
