@@ -6,6 +6,7 @@
 <h1>Profile</h1>
 <div class="box smallbox">
     <p>Welcome home {{ user.get_username }}.</p>
+    <p>Your date of birth is {{ user.profile.dateofbirth }}, {{ user.profile.age }} years old.</p>
 </div>
 <a href="/accounts/logout/">Log out</a>
 {% else %}
